@@ -1,6 +1,8 @@
-# Raku module template
+# Raku dist template
 
-Template for Raku modules. Fill this README with your instructions
+Template for Raku modules, classes, roles, to be distributed as a
+single package in the ecosystem. Fill this README with your
+instructions.
 
 ## Installing
 
