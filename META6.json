@@ -1,20 +1,18 @@
 {
   "auth" : "",
   "authors" : [],
-  "build-depends" : [ ],
   "depends" : [
     "JSON::Fast"
   ],
   "description" : "",
   "license" : "gpl-3.0",
   "name" : "",
-  "perl" : "6.*",
+  "perl" : "6.d",
   "provides" : { },
   "resources" : [ ],
   "source-url" : "",
   "tags" : [
     "modules"
   ],
-  "test-depends" : [],
   "version" : "0.0.1"
 }
