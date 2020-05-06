@@ -5,7 +5,7 @@
     "JSON::Fast"
   ],
   "description" : "",
-  "license" : "gpl-3.0",
+  "license" : "Artistic-2.0",
   "name" : "",
   "perl" : "6.d",
   "provides" : { },
