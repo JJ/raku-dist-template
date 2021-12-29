@@ -9,7 +9,7 @@
   "depends": [],
   "test-depends": [
     "Test",
-    "Test::Meta"
+    "Test::META"
   ],
   "provides": {},
   "resources": [
