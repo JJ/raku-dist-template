@@ -1,13 +1,15 @@
 {
-  "name": "Your::Name::Here",
+  "name": "Your::Module::Name::Here",
   "description": "Raku distribution template",
   "version": "0.0.1",
   "perl": "6.d",
   "meta-version": 1,
   "authors": [],
   "auth": "",
-  "depends": [
-    "JSON::Fast"
+  "depends": [],
+  "test-depends": [
+    "Test",
+    "Test::Meta"
   ],
   "provides": {},
   "resources": [
