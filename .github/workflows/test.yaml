@@ -17,7 +17,7 @@ jobs:
           path: ~/.raku/precomp
           key: ${{ runner.os }}-${{ hashFiles('META6.json') }}
       - name: Show stuff
-        run: ls -alt /home/raku/.raku && ls -alt /github/home/.raku/
+        run: ls -alt /home/raku/.raku && ls -alt /github/home/
       - name: Install modules
         if: steps.meta6.outputs.cache-hit != 'true'
         run: zef install --deps-only .
