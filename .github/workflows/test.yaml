@@ -1,4 +1,4 @@
-name: "Test in a Raku container"
+name: "Test in a Raku container - template"
 on: [ push, pull_request ]
 jobs:
   test:
