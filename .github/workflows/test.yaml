@@ -16,6 +16,8 @@ jobs:
         with:
           path: ~/.raku/precomp
           key: ${{ runner.os }}-${{ hashFiles('META6.json') }}
+      - name: Show stuff
+        run: ls /__w/raku-dist-template/raku-dist-template
       - name: Install modules
         if: steps.meta6.outputs.cache-hit != 'true'
         run: zef install --deps-only .
