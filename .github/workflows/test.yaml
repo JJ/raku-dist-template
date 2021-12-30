@@ -14,7 +14,7 @@ jobs:
         uses: actions/cache@v2
         id: meta6
         with:
-          path: ~/.raku/precomp
+          path: ~/.raku/
           key: ${{ runner.os }}-${{ hashFiles('META6.json') }}
       - name: Show stuff
         run: ls -alt /home/raku/.raku && ls -R /github/home/
