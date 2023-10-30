@@ -4,6 +4,13 @@ Template for Raku modules, classes, roles, to be distributed as a
 single package in the ecosystem. Fill this README with your
 instructions.
 
+Use it by selecting this template from the web, or via 
+
+```
+gh repo create --public -p JJ/raku-dist-template raku-my-dist
+```
+
+
 Delete above this line and fill in the blanks below
 
 ---
