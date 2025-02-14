@@ -9,9 +9,9 @@ jobs:
       image: ghcr.io/jj/raku-zef-gha
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Cache installed dists
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: meta6
         with:
           path: ~/.raku/
